@@ -1,0 +1,6 @@
+/* Evette Mestre Meyer - color assignment - 10-9-13 */
+
+Git links
+
+https://github.com/EvetteMM/DWS1
+https://github.com/EvetteMM/DWS1/tree/gh.pages 
