@@ -1,0 +1,207 @@
+/* linked to mestre_meyer_evette_forms/forms.html */
+/*kuler colors: 3996FF med_blu, 0054B3 dk_blu, A4CFFF lt_blu, B3A080 dk_tan, FFF3DD lt_tan
+ - https://kuler.adobe.com/Ocean-and-Sandstone-color-theme-201376/*/
+
+header, section, footer, nav, article, figure, figcaption {
+	display: block;}
+	
+body{
+	color: #0054b3;
+	background-color: #FFF3DD;
+	background-image: url("images/beach.jpg");
+	background-position: center;
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1.4em;
+	padding: 0px 0px 25px 0px;}
+	
+.wrapper{
+	width: 960px;
+	margin: 0px auto 20px auto;
+	background-color: #FFF3DD;}
+	
+header{
+	height: 175px;}
+	
+h1	{
+	color: white;
+	font-family: 'Joti One';
+	text-transform: uppercase;
+	text-shadow: 2px 2px 7px #111111;
+	font-size: 7em;
+	text-align: center;
+	padding: 50px 25px 50px 25px;
+	margin: 0px;
+	background-color: #0054B3;}	
+	
+footer {
+	clear: both;
+	color: #FFF3DD;
+	font-size: 80%;
+	background-color: #3996FF;
+	padding: 10px 10px 10px 50px;}
+	
+footer h3 {
+	color: #FFF3DD;}
+	
+nav {
+	clear: both;
+	font-family: Arial, Verdana, sans-serif;
+	color: #0054B3;}
+	
+nav ul {
+	text-align: center;
+	padding: 10px;}
+	
+nav li	{
+	display: inline;
+	margin-right: 20px;
+	text-align: center;}
+
+nav li a{
+	color: #0054B3;}
+	
+nav li a: hover, nav li a.current{
+	color: #A4CFFF}
+	
+nav li.sails_technique {
+	display: none;}
+	
+section.left_column {
+	float: left;
+	width: 600px;
+	padding: 25px;
+	font-size: 90%;}
+	
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #3996FF;}
+	
+article.table, article.mktg {
+	border-bottom: none;}
+	
+hgroup {
+	margin-top: 40px;}
+
+
+figure {
+	float: left;
+	width: 250px;
+	height: 200px;
+	padding: 5px;
+	margin: 25px 25px 25px 0px;
+	border: 1px solid #3996FF;}
+	
+figcaption {
+	font-size: 90%;
+	text-align: left;}
+		
+article.table {
+	width: 600px;}
+	
+th, td {
+	padding: 10px 10px 10px 10px;}
+
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 100%;
+	color: #FFF3DD;
+	background-color: #0054B3;
+	text-align: left;}
+	
+tr.even {
+	background-color: #A4CFFF;}
+	
+h1, h2, h3 {
+	font-weight: normal;}
+	
+h2 {
+	margin: 10px 0px 5px 0px;}
+	
+h3 {
+	color: #3996FF;}
+	
+h4 {
+	color: #3996FF;
+	font-weight: normal;}
+
+a {
+	color: #0054B3;
+	text-decoration: none;
+	font-weight: bold;}
+	
+ul {
+	list-style-type: square;}
+	
+a:hover {
+	color: #A4CFFF;}
+	
+aside {
+	width: 250px;
+	float: left;
+	padding: 25px;
+	font-size: 90%;
+	color: #0054B3;}
+	
+aside input {
+	border-radius: 5px;
+	background-color: #FFF3DD;
+	width: 225px;
+	height: 25px;}
+
+aside input[type="text], input[type="email"], input[type="password"]  {
+	width: 225px;
+	border: 1px solid #B3A080;
+	padding: 2px;
+	outline: none;}
+	
+aside input[type="text"]:focus, input[type="text"]:hover {
+	background-color: #A4CFFF;}
+	
+aside input[type="password"]:focus, input[type="password"]:hover {
+	background-color: #A4CFFF;}
+	
+aside input[type="email"]:focus, input[type="email"]:hover {
+	background-color: #A4CFFF;}
+	
+aside input[type="submit"] {
+	border: 1px solid ##0054B3;
+	background-color: #0054B3;
+	color: #ffffff;
+	border-radius: 5px;
+	margin-top: 10px;
+	width: 75px;
+	float: right;}
+	
+aside input[type="hover"] {
+	border 1px solid #B3A080;
+	background-color: #A4CFFF;
+	color: #ffffff
+	cursor: pointer;}
+	
+aside fieldset {
+	width: 250px;
+	margin-top: 20px;
+	border: 1px solid #0054B3;
+	background-color: #e2caa2;
+	border-radius: 10px;
+	line-height: 1.6em;
+	float: left;
+	margin-bottom: 25px;}
+	
+aside legend {
+	background-color:#0054B3;
+	border: 1px solid #0054B3;
+	border-radius: 10px;
+	text-align: center;
+	padding: 0px 10px 0px 10px;}
+	
+aside legend h4 {
+	color: white;}
+	
+aside input[type="search"] {
+	background-color: white;}	
+
