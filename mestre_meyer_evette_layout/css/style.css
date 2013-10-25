@@ -1,0 +1,121 @@
+/* linked to mestre_meyer_evette_styling_text/styling_text.html */
+/*kuler colors: 3996FF med_blu, 0054B3 dk_blu, A4CFFF lt_blu, B3A080 dk_tan, FFF3DD lt_tan
+ - https://kuler.adobe.com/Ocean-and-Sandstone-color-theme-201376/*/
+
+body{
+	background-color: #B3A080;
+	background-color: rgb(179, 160, 128);
+	width: 90%;
+	margin: 0 auto;}
+	
+#content {
+	overflow: auto;
+	height: 100%;}
+	
+
+ul {
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	color: #0054B3;}
+	
+ul li	{
+	display: inline;
+	margin-right: 25px;
+	text-align: center;}
+	
+ul li.sails_technique {
+	display: none;}
+	
+	
+h1	{
+	color: #0054B3;
+	font-family: 'Joti One', cursive;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 7px #111111;
+	font-size: 8em;
+	text-align: center;
+	padding: 20px;
+	
+	margin: 25px auto 25px auto;
+	
+	width: 930px;}
+	
+h2 {
+	color: #0054B3;
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;}
+	
+#feature {
+	background-color: #FFF3DD;
+	color: black;
+	padding: 25px;
+	border-radius: 10px;
+	margin: 10px;
+	clear: none;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1.0em;}
+	
+#nav, #feature, #footer {
+	margin: 1%;}
+	
+.column1, .column2 {
+	background-color: #FFF3DD;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: .938em;
+	width: 44%;
+	float: left;
+	margin: 1%;
+	padding: 25px;
+	border-radius: 10px;
+	height: 1800px;
+	border: 2px #0054B3;
+	clear: none;}
+
+.columns2 {
+	margin-right: 0%;
+	overflow: scroll;}
+	
+h3	{
+	color: #0054B3;
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	font-style: italic;
+	font-weight: bold;}
+
+	
+.footer{
+	height: 175px;
+	width:90%;
+	border-radius: 10px;
+	margin: 25px;
+	overflow: scroll;background-color: #FFF3DD;
+	background-color: rgb(255, 243, 221);
+	color: black;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: .938em;
+	line-height: 1.6em;
+	padding: 20px 20px 20px 100px;
+	height: 525px;}
+
+p:first-letter{
+	font-size: 200%;}
+p:first-line{
+	font-weight: bold;}
+	
+
+	
+a:link	{
+	text-decoration: none;
+	color: blue;}
+	
+a:hover {
+	text-decoration: underline;
+	color: green;}
+
+a:visited {
+	color: purple;}
+	
+a:active {
+	color: cyan;
+	text-decoration: underline;}
+	

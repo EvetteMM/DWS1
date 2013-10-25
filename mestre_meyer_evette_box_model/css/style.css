@@ -1,0 +1,121 @@
+/* linked to mestre_meyer_evette_styling_text/styling_text.html */
+/*kuler colors: 3996FF med_blu, 0054B3 dk_blu, A4CFFF lt_blu, B3A080 dk_tan, FFF3DD lt_tan
+ - https://kuler.adobe.com/Ocean-and-Sandstone-color-theme-201376/*/
+
+body{
+	background-color: #B3A080;
+	background-color: rgb(179, 160, 128);
+	margin: 25px;/*puts space around outer edges*/}
+
+ul {
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	color: #0054B3;}
+	
+ul li	{
+	display: inline;
+	margin-right: 25px;
+	text-align: center;}
+	
+ul li.sails_technique {
+	display: none;}
+	
+	
+h1, h2, h4, #description, #hist, #refs{
+	margin: 25px auto 25px auto;
+	box-shadow: 5px 5px 5px #777777;
+	border-radius: 10px;
+	width: 940px;}
+	
+h1	{
+	background-color: #0054B3;
+	background-color: rgb(29, 87, 167);
+	color: white;
+	font-family: 'Joti One', cursive;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 7px #111111;
+	font-size: 4em;
+	text-align: center;
+	padding: 25px;
+	border: 10px double;}
+	
+h2, h4 {
+	color: white;
+	padding: 20px;
+	font-family: Impact, sans-serif;
+	letter-spacing: .1em;
+	text-align: center;
+	text-shadow: 2px 2px 2px #111111;
+	background-color: hsla(0, 100%, 100%, 50%);}
+
+	
+h2	{
+	background-color: #3996FF;
+	background-color: rgb(87, 140, 201);
+	font-size: 2em;}
+	
+h3	{
+	color: #0054B3;
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	font-style: italic;
+	font-weight: bold;}
+
+h4	{
+	background-color: #A4CFFF;
+	background-color: rgb(164, 207, 255);
+	font-family: Arial, Verdana, sans-serif;}
+			
+#description, #hist 	{
+	background-color: #FFF3DD;
+	background-color: rgb(255, 243, 221);
+	opacity: .70;
+	color: black;
+	font-family: Georgia, Times, serif;
+	font-size: 16px;
+	line-height: 1.4em;
+	text-indent: 20px;
+	height: 750px;
+	width: 1200px;
+	border: 2px solid #3996FF;
+	padding: 35px;
+	margin: 25px;}
+	
+#hist, #refs{
+	overflow: scroll;}
+	
+#refs{
+	height: 300px;
+	width: 1200px;
+	border: 2px solid #3996FF;
+	margin: 25px;}
+
+p:first-letter{
+	font-size: 200%;}
+p:first-line{
+	font-weight: bold;}
+	
+ol	{
+	background-color: #FFF3DD;
+	background-color: rgb(255, 243, 221);
+	opacity: .70;
+	color: black;
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1.6em;
+	padding: 25px 25px 25px 50px;}
+	
+a:link	{
+	text-decoration: none;
+	color: blue;}
+	
+a:hover {
+	text-decoration: underline;
+	color: green;}
+
+a:visited {
+	color: purple;}
+	
+a:active {
+	color: cyan;
+	text-decoration: underline;}
+	

@@ -1,0 +1,4 @@
+/* mestre_meyer_evette_text_styling - git links */
+
+https://github.com/EvetteMM/DWS1/commit/d27402bec864a1f070d3d0ce45a37ff44b2ec750
+https://github.com/EvetteMM/DWS1/commit/82b71d9e64a2b667f9b51221648a78348d905e45

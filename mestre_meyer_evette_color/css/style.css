@@ -1,0 +1,50 @@
+/* linked to mestre_meyer_evette_color/color.html */
+/*kuler colors: 3996FF, 0054B3, A4CFFF, B3A080, FFF3DD - https://kuler.adobe.com/Ocean-and-Sandstone-color-theme-201376/*/
+
+body{
+	background-color: #B3A080;
+	background-color: rgb(179, 160, 128);
+	margin: 25px;/*puts space around outer edges*/}
+	
+h1, h2, h4 {
+	color: white;
+	padding: 20px;
+	font-family: Arial, Verdana, sans-serif;
+	background-color: hsla(0, 100%, 100%, 50%);}
+	
+h1	{
+	background-color: #0054B3;
+	background-color: rgb(29, 87, 167);}
+	
+h2	{
+	background-color: #3996FF;
+	background-color: rgb(87, 140, 201);}
+	
+h3	{
+	color: #0054B3;
+	margin: 15px;}
+
+h4	{
+	background-color: #A4CFFF;
+	background-color: rgb(164, 207, 255);}
+		
+p 	{
+	background-color: #FFF3DD;
+	background-color: rgb(255, 243, 221);
+	opacity: .70;
+	color: black;
+	font-family: Arial, Verdana, sans-serif;
+	padding: 25px;}
+	
+ol	{
+	background-color: #FFF3DD;
+	background-color: rgb(255, 243, 221);
+	opacity: .70;
+	color: black;
+	font-family: Arial, Verdana, sans-serif;
+	padding: 25px 25px 25px 50px;}
+	
+a	{
+	text-decoration: none;
+	color: blue;}
+	
